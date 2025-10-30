@@ -3,9 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 
 export default function ChatApp() {
     const [notes, setNotes] = useState(
-        `📝 Notes — How to Use This Property Chat AI
-
-💡 Purpose:
+        `💡 Purpose:
 This AI helps you search properties and projects using simple natural language — but it’s not a full GPT model. 
 It’s a lightweight AI trained only on 83 property entries from a local dataset.
 So, to get the best results, your query must be specific, well-structured, and spelled correctly.
@@ -76,8 +74,7 @@ It is unfurnished and currently under construction, featuring 2 bathrooms and 2 
 ________________________________________
 
 2️⃣ Sainath Vrindavan (1BHK)
-1BHK residential apartment located at Prataprao Gujar Rd, Neelam Nagar, Mulund East, Mumbai, Maharashtra 400081, near JBCN International School Mulund.
-It is unfurnished and currently under construction, featuring 1 bathroom and 1 balcony, priced at around ₹1.2 crore.
+NPM
 
 ________________________________________
 
@@ -238,10 +235,9 @@ ________________________________________
             {/* Header */}
             <header className="flex items-center justify-between">
                 <div>
-                    <h1 className="text-2xl font-semibold">NoBroDirectAI Property Finder</h1>
+                    <h1 className="text-2xl font-semibold">Property Finder</h1>
                     <p className="text-sm text-gray-400">
-                        Connects to your Java backend and prints responses as friendly
-                        tables/cards.
+                        Your Smart AI Partner for Effortless Property Discovery.
                     </p>
                 </div>
                 <div className="flex items-center gap-3">
@@ -273,7 +269,7 @@ ________________________________________
                     <div className="flex-1">
                         <div className="flex items-center justify-between gap-3">
                             <h2 className="font-medium text-lg text-indigo-400">
-                                📝 Notes — How to Use This Property Chat AI
+                                ⚡ Read This Before You Ask! Discover how to get the best results from your AI Property Chat Assistant — the smarter way to find your dream home in seconds!
                             </h2>
                             <button
                                 onClick={() => setNotesExpanded((s) => !s)}
